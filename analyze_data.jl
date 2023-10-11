@@ -84,10 +84,10 @@ function analyze_data(sweep_directory, photon_class_list, x_axis, y_axis, f_cut,
                                                                                f_cut_index, E_p_cut_index, Φ_cut_index)
     
         # generate heatmaps of simulation data
-        generate_heatmaps(photon_class_list, x_axis, xlabel, y_axis, ylabel, 
-                      pump_mags_array, pump_phases_array, 
-                      signal_mags_array, signal_phases_array, 
-                      intermediate_mags_array, intermediate_phases_array)
+        generate_heatmaps(photon_class_list, x_axis, xlabel, y_axis, ylabel, title, 
+                          pump_mags_array, pump_phases_array, 
+                          signal_mags_array, signal_phases_array, 
+                          intermediate_mags_array, intermediate_phases_array)
         
     else 
         println("Please enter valid x-axis such as \"frequency,\" \"power,\" or \"flux\"")
