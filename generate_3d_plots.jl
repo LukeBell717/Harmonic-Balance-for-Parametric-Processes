@@ -135,7 +135,7 @@ function specify_xy_axes(x_axis, y_axis, f_array, f_cut, E_p_array, E_p_cut, Φ_
     return x, xlabel, ylabel, y, title
 end
 
-function generate_heatmaps(photon_class_list, x_axis, xlabel, y_axis, ylabel, 
+function generate_heatmaps(photon_class_list, x_axis, xlabel, y_axis, ylabel, title, 
                            pump_mags_array, pump_phases_array, 
                            signal_mags_array, signal_phases_array, 
                            intermediate_mags_array, intermediate_phases_array)
